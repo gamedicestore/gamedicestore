@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="GameDice is a mobile gaming studio crafting delightful, high-quality games." />
+    <title>GameDice — Mobile Game Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/placeholder.svg" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="GameDice home">
+          <span class="brand-mark" aria-hidden="true">🎲</span>
+          <span class="brand-name">GameDice</span>
+        </a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#careers">Careers</a>
+          <a href="#contact">Contact</a>
+          <a href="./privacy.html">Privacy</a>
+        </nav>
+      </div>
+      <div class="header-slider" aria-label="Featured games">
+        <div class="container">
+          <button class="slider-btn prev" aria-label="Scroll previous">‹</button>
+          <div class="slider-viewport">
+            <div class="slider-track">
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.gamedice.dirtbike.stunt.racing">
+                <img src="./assets/dirtBike.png" alt="Dirt Bike icon" />
+                <span>Dirt Bike</span>
+              </div>
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.gamedice.dumper.truck.cargo3d">
+                <img src="./assets/dumperTruck.jpg" alt="Dumper Truck icon" />
+                <span>Dumper Truck</span>
+              </div>
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.GameDiceStudio.OffroadCargoPickup">
+                <img src="./assets/MonsterTruck.png" alt="Monster Truck icon" />
+                <span>Monster Truck</span>
+              </div>
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.gamedice.euro.truck.driving.lorry.game">
+                <img src="./assets/Driving Truck.png" alt="Offroad Driving Truck icon" />
+                <span>Offroad Driving Truck</span>
+              </div>
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.GameDice.OffRoadRussianPickupTruck3D">
+                <img src="./assets/Pickup Truck.png" alt="Offroad Pick Truck icon" />
+                <span>Offroad Pick Truck</span>
+              </div>
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.gamedice.coach.bus.driving.simulator">
+                <img src="./assets/OffroadBus.png" alt="Offroad Bus icon" />
+                <span>Offroad Bus</span>
+              </div>
+              <div class="slider-item" tabindex="0" role="button" data-url="https://play.google.com/store/apps/details?id=com.gamedice.basketball.rush">
+                <img src="./assets/BasketBall.png" alt="Basket Ball Rush icon" />
+                <span>Basket Ball Rush</span>
+              </div>
+            </div>
+          </div>
+          <button class="slider-btn next" aria-label="Scroll next">›</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>Big Fun. Small Screen.</h1>
+          <p>We make mobile games that spark joy, challenge your reflexes, and keep you smiling on the go.</p>
+          <div class="hero-ctas">
+            <a class="button primary" href="#portfolio">View our games</a>
+            <a class="button" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>At GameDice, we’re passionate about creating delightful mobile gaming experiences. Our focus is on fun-first gameplay, accessible design, and polished worlds that keep players coming back. With tight gameplay loops, charming art, and a data-driven approach, we design games that fit seamlessly into your day—and leave you smiling.</p>
+          <ul class="pill-list">
+            <li>🎮 Gameplay-first</li>
+            <li>⚡ Rapid iteration</li>
+            <li>🎨 Accessible art direction</li>
+            <li>📊 Data-informed design</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Portfolio</h2>
+            <p class="section-sub">Tap a card to view the store page.</p>
+          </div>
+
+          <ul class="grid portfolio-grid" aria-label="Game portfolio">
+            <li class="card" tabindex="0" role="button" aria-label="Open Dirt Bike store page" data-url="https://play.google.com/store/apps/details?id=com.gamedice.dirtbike.stunt.racing">
+              <figure>
+                <img src="./assets/dirtBike.png" alt="Dirt Bike cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Dirt Bike</h3>
+                  <p>Stunt racing on rugged trails.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card" tabindex="0" role="button" aria-label="Open Dumper Truck store page" data-url="https://play.google.com/store/apps/details?id=com.gamedice.dumper.truck.cargo3d">
+              <figure>
+                <img src="./assets/dumperTruck.jpg" alt="Dumper Truck cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Dumper Truck</h3>
+                  <p>Heavy cargo challenges in 3D.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card" tabindex="0" role="button" aria-label="Open Monster Truck store page" data-url="https://play.google.com/store/apps/details?id=com.GameDiceStudio.OffroadCargoPickup">
+              <figure>
+                <img src="./assets/MonsterTruck.png" alt="Monster Truck cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Monster Truck</h3>
+                  <p>Crush obstacles with big wheels.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card" tabindex="0" role="button" aria-label="Open Offroad Driving Truck store page" data-url="https://play.google.com/store/apps/details?id=com.gamedice.euro.truck.driving.lorry.game">
+              <figure>
+                <img src="./assets/Driving Truck.png" alt="Offroad Driving Truck cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Offroad Driving Truck</h3>
+                  <p>Euro truck driving off the beaten path.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card" tabindex="0" role="button" aria-label="Open Offroad Pick Truck store page" data-url="https://play.google.com/store/apps/details?id=com.GameDice.OffRoadRussianPickupTruck3D">
+              <figure>
+                <img src="./assets/Pickup Truck.png" alt="Offroad Pick Truck cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Offroad Pick Truck</h3>
+                  <p>Russian pickup challenges in the wild.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card" tabindex="0" role="button" aria-label="Open Offroad Bus store page" data-url="https://play.google.com/store/apps/details?id=com.gamedice.coach.bus.driving.simulator">
+              <figure>
+                <img src="./assets/OffroadBus.png" alt="Offroad Bus cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Offroad Bus</h3>
+                  <p>Coach bus driving across tough routes.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card" tabindex="0" role="button" aria-label="Open Basket Ball Rush store page" data-url="https://play.google.com/store/apps/details?id=com.gamedice.basketball.rush">
+              <figure>
+                <img src="./assets/BasketBall.png" alt="Basket Ball Rush cover art" loading="lazy" />
+                <figcaption>
+                  <h3>Basket Ball Rush</h3>
+                  <p>Casual hoop-shooting fun.</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="careers" class="section">
+        <div class="container">
+          <h2>Careers</h2>
+          <p>We are a small, craft-driven team. If you love prototyping, polishing juice, and shipping to players frequently, we would love to hear from you.</p>
+          <a class="button" href="mailto:careers@gamedice.studio">careers@gamedice.studio</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>For partnerships, press, or general inquiries, reach us at:</p>
+          <div class="contact-list">
+            <a class="button" href="mailto:hello@gamedice.studio">hello@gamedice.studio</a>
+            <a class="button subtle" href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+            <a class="button subtle" href="https://discord.com" target="_blank" rel="noopener">Discord</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> GameDice</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#top">Back to top</a>
+          <a href="./privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
+

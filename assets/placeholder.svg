@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.5">
+    <circle cx="400" cy="225" r="180"/>
+    <circle cx="400" cy="225" r="220" stroke-opacity="0.25"/>
+  </g>
+  <g fill="#67e8f9">
+    <text x="400" y="230" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="44">GameDice</text>
+    <text x="400" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="18" fill="#a0a3ad">Game cover placeholder</text>
+  </g>
+</svg>
+
+
+
